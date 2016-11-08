@@ -4,4 +4,18 @@ default:
   username: sinatra
   password: rebecca88
   host: localhost
+development:
+  adapter: mysql2
+  database: superstars
+  username: sinatra
+  password: rebecca88
+  host: localhost
+production:
+  adapter: mysql2
+  database: superstars
+  username: sinatra
+  password: rebecca88
+  host: localhost
+
+
 
